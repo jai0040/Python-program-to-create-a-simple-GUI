@@ -157,7 +157,7 @@ if __name__ == "__main__":
 
 	Decimal= Button(gui, text='.', fg='black', bg='#84B8D3', 
 					command=lambda: press('.'), height=2, width=7) 
-	Decimal.grid(row=5, column='1') 
+	Decimal.grid(row=5, column=1) 
  
 	clear = Button(gui, text='Clear', fg='black', bg='#FC5757', 
 				command=clear, height=2, width=7) 
